@@ -12,26 +12,26 @@ export const translations: Translations = {
   pt: {
     // Navigation
     'nav.about': 'Sobre',
-    'nav.certifications': 'Certificações',
+    'nav.certifications': 'Formação',
     'nav.experience': 'Experiência',
     'nav.projects': 'Projetos',
     'nav.contact': 'Contato',
 
     // Hero Section
     'hero.greeting': 'Olá, eu sou',
-    'hero.role': 'Desenvolvedor Full Stack & Designer',
-    'hero.description': 'Apaixonado por criar experiências digitais incríveis com código limpo e design elegante.',
+    'hero.role': 'Desenvolvedor Front-End | Full Stack',
+    'hero.description': 'Desenvolvedor Web altamente motivado e focado em resultados, especializado na criação de interfaces modernas, responsivas e altamente funcionais.',
     'hero.cta': 'Ver Projetos',
     'hero.contact': 'Fale Comigo',
 
     // About
     'about.title': 'Sobre Mim',
     'about.subtitle': 'Desenvolvedor apaixonado por tecnologia',
-    'about.description': 'Sou um desenvolvedor full stack com experiência em React, Node.js e design de interfaces. Gosto de transformar ideias em produtos digitais funcionais e belos.',
+    'about.description': 'Com sólida base em desenvolvimento Full Stack, domino tecnologias essenciais como HTML5, CSS3, JavaScript (ES6+), jQuery e PHP, complementadas por expertise em bancos de dados MySQL. Sou movido por desafios e estou em constante aprendizado e evolução. Além da programação, utilizo minhas habilidades em edição profissional de vídeos para redes sociais.',
 
     // Certifications
-    'certifications.title': 'Certificações',
-    'certifications.subtitle': 'Conhecimento validado',
+    'certifications.title': 'Formação',
+    'certifications.subtitle': 'Educação e desenvolvimento',
 
     // Experience
     'experience.title': 'Experiência',
@@ -39,38 +39,38 @@ export const translations: Translations = {
 
     // Projects
     'projects.title': 'Projetos',
-    'projects.subtitle': 'Trabalhos recentes',
-    'projects.viewDemo': 'Ver Demo',
-    'projects.viewCode': 'Ver Código',
+    'projects.subtitle': 'Trabalhos e cases de sucesso',
+    'projects.viewDemo': 'Ver Site',
+    'projects.viewCode': 'Contato',
 
     // Contact
     'contact.title': 'Vamos Conversar',
     'contact.subtitle': 'Entre em contato',
-    'contact.description': 'Estou sempre aberto a discutir novos projetos, oportunidades ou apenas bater um papo sobre tecnologia.',
+    'contact.description': 'Estou sempre aberto a discutir novos projetos, oportunidades ou apenas bater um papo sobre tecnologia. Vamos trabalhar juntos!',
   },
   en: {
     // Navigation
     'nav.about': 'About',
-    'nav.certifications': 'Certifications',
+    'nav.certifications': 'Education',
     'nav.experience': 'Experience',
     'nav.projects': 'Projects',
     'nav.contact': 'Contact',
 
     // Hero Section
     'hero.greeting': 'Hi, I\'m',
-    'hero.role': 'Full Stack Developer & Designer',
-    'hero.description': 'Passionate about creating amazing digital experiences with clean code and elegant design.',
+    'hero.role': 'Front-End | Full Stack Developer',
+    'hero.description': 'Highly motivated and results-focused web developer, specialized in creating modern, responsive and highly functional interfaces.',
     'hero.cta': 'View Projects',
     'hero.contact': 'Get In Touch',
 
     // About
     'about.title': 'About Me',
     'about.subtitle': 'Developer passionate about technology',
-    'about.description': 'I\'m a full stack developer with experience in React, Node.js and interface design. I enjoy transforming ideas into functional and beautiful digital products.',
+    'about.description': 'With a solid foundation in Full Stack development, I master essential technologies like HTML5, CSS3, JavaScript (ES6+), jQuery and PHP, complemented by expertise in MySQL databases. I am driven by challenges and constantly learning and evolving. In addition to programming, I use my professional video editing skills for social media.',
 
     // Certifications
-    'certifications.title': 'Certifications',
-    'certifications.subtitle': 'Validated knowledge',
+    'certifications.title': 'Education',
+    'certifications.subtitle': 'Learning and development',
 
     // Experience
     'experience.title': 'Experience',
@@ -78,38 +78,38 @@ export const translations: Translations = {
 
     // Projects
     'projects.title': 'Projects',
-    'projects.subtitle': 'Recent work',
-    'projects.viewDemo': 'View Demo',
-    'projects.viewCode': 'View Code',
+    'projects.subtitle': 'Work and success cases',
+    'projects.viewDemo': 'View Site',
+    'projects.viewCode': 'Contact',
 
     // Contact
     'contact.title': 'Let\'s Talk',
     'contact.subtitle': 'Get in touch',
-    'contact.description': 'I\'m always open to discussing new projects, opportunities or just chatting about technology.',
+    'contact.description': 'I\'m always open to discussing new projects, opportunities or just chatting about technology. Let\'s work together!',
   },
   es: {
     // Navigation
     'nav.about': 'Acerca',
-    'nav.certifications': 'Certificaciones',
+    'nav.certifications': 'Formación',
     'nav.experience': 'Experiencia',
     'nav.projects': 'Proyectos',
     'nav.contact': 'Contacto',
 
     // Hero Section
     'hero.greeting': 'Hola, soy',
-    'hero.role': 'Desarrollador Full Stack & Diseñador',
-    'hero.description': 'Apasionado por crear experiencias digitales increíbles con código limpio y diseño elegante.',
+    'hero.role': 'Desarrollador Front-End | Full Stack',
+    'hero.description': 'Desarrollador Web altamente motivado y enfocado en resultados, especializado en crear interfaces modernas, responsivas y altamente funcionales.',
     'hero.cta': 'Ver Proyectos',
     'hero.contact': 'Contáctame',
 
     // About
     'about.title': 'Sobre Mí',
     'about.subtitle': 'Desarrollador apasionado por la tecnología',
-    'about.description': 'Soy un desarrollador full stack con experiencia en React, Node.js y diseño de interfaces. Me gusta transformar ideas en productos digitales funcionales y hermosos.',
+    'about.description': 'Con una sólida base en desarrollo Full Stack, domino tecnologías esenciales como HTML5, CSS3, JavaScript (ES6+), jQuery y PHP, complementadas por experiencia en bases de datos MySQL. Me impulsan los desafíos y estoy en constante aprendizaje y evolución. Además de la programación, utilizo mis habilidades en edición profesional de videos para redes sociales.',
 
     // Certifications
-    'certifications.title': 'Certificaciones',
-    'certifications.subtitle': 'Conocimiento validado',
+    'certifications.title': 'Formación',
+    'certifications.subtitle': 'Aprendizaje y desarrollo',
 
     // Experience
     'experience.title': 'Experiencia',
@@ -117,14 +117,14 @@ export const translations: Translations = {
 
     // Projects
     'projects.title': 'Proyectos',
-    'projects.subtitle': 'Trabajos recientes',
-    'projects.viewDemo': 'Ver Demo',
-    'projects.viewCode': 'Ver Código',
+    'projects.subtitle': 'Trabajos y casos de éxito',
+    'projects.viewDemo': 'Ver Sitio',
+    'projects.viewCode': 'Contacto',
 
     // Contact
     'contact.title': 'Hablemos',
     'contact.subtitle': 'Ponte en contacto',
-    'contact.description': 'Siempre estoy abierto a discutir nuevos proyectos, oportunidades o simplemente charlar sobre tecnología.',
+    'contact.description': '¡Siempre estoy abierto a discutir nuevos proyectos, oportunidades o simplemente charlar sobre tecnología. Trabajemos juntos!',
   }
 };
 

@@ -43,8 +43,8 @@ const Hero = () => {
           </p>
           
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-            <span className="block">João</span>
-            <span className="block accent-neon drop-shadow-lg">Silva</span>
+            <span className="block">Guilherme</span>
+            <span className="block accent-neon drop-shadow-lg">Tavares</span>
           </h1>
           
           <h2 className="text-2xl md:text-3xl lg:text-4xl mb-8 text-white/90 font-light">

@@ -9,35 +9,36 @@ const Contact = () => {
   const contactInfo = [
     {
       label: "Email",
-      value: "joao.silva@email.com",
-      href: "mailto:joao.silva@email.com",
+      value: "guids.tavares@gmail.com",
+      href: "mailto:guids.tavares@gmail.com",
       icon: "📧"
     },
     {
       label: "LinkedIn",
-      value: "/in/joao-silva-dev",
-      href: "https://linkedin.com/in/joao-silva-dev",
+      value: "/in/guilherme-tavares-398563240",
+      href: "https://linkedin.com/in/guilherme-tavares-398563240",
       icon: "💼"
     },
     {
-      label: "GitHub",
-      value: "/joao-silva-dev",
-      href: "https://github.com/joao-silva-dev",
-      icon: "🔗"
+      label: "WhatsApp",
+      value: "+55 (11) 95282-5374",
+      href: "https://wa.me/5511952825374",
+      icon: "📱"
     },
     {
-      label: "WhatsApp",
-      value: "+55 (11) 99999-9999",
-      href: "https://wa.me/5511999999999",
-      icon: "📱"
+      label: "Localização",
+      value: "São Paulo, SP - Brasil",
+      href: "#",
+      icon: "📍"
     }
   ];
 
   const availability = [
+    "Desenvolvedor Full Stack",
     "Projetos Freelance",
-    "Consultoria Técnica",
-    "Desenvolvimento Full Stack",
-    "Code Review"
+    "Oportunidades CLT",
+    "Edição de Vídeos",
+    "Consultoria Técnica"
   ];
 
   return (
@@ -108,11 +109,11 @@ const Contact = () => {
                 </div>
                 
                 <h3 className="text-2xl font-semibold mb-4 text-primary">
-                  Pronto para começar?
+                  Pronto para novos desafios?
                 </h3>
                 
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Vamos transformar suas ideias em realidade digital. Entre em contato e vamos discutir seu próximo projeto!
+                  Estou disponível para oportunidades de trabalho e projetos desafiadores. Vamos criar algo incrível juntos!
                 </p>
                 
                 <div className="space-y-4">
@@ -120,7 +121,7 @@ const Contact = () => {
                     asChild
                     className="w-full bg-neon text-primary-foreground neon-glow"
                   >
-                    <a href="mailto:joao.silva@email.com">
+                    <a href="mailto:guids.tavares@gmail.com">
                       Enviar Email
                     </a>
                   </Button>
@@ -130,7 +131,7 @@ const Contact = () => {
                     variant="outline"
                     className="w-full border-accent text-accent hover:bg-accent/10"
                   >
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
                       WhatsApp
                     </a>
                   </Button>

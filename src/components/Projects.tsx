@@ -9,34 +9,34 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Plataforma completa de e-commerce com painel administrativo, pagamentos integrados e sistema de inventário.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      demo: "#",
+      title: "Floreslândia E-commerce",
+      description: "E-commerce completo de floricultura desenvolvido do zero, desde o design até o backend. Site com milhares de acessos mensais e alta conversão em vendas. Implementação de SEO técnico, integração com WhatsApp e sistema de pedidos otimizado.",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+      technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "MySQL", "SEO"],
+      demo: "https://www.floreslandia.com/",
       code: "#"
     },
     {
-      title: "Task Management App",
-      description: "Aplicativo de gerenciamento de tarefas com funcionalidades de colaboração em tempo real e notificações.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500",
-      technologies: ["React", "TypeScript", "Firebase", "Tailwind"],
-      demo: "#",
-      code: "#"
-    },
-    {
-      title: "Analytics Dashboard",
-      description: "Dashboard analítico com visualizações interativas, relatórios personalizáveis e integração com APIs.",
+      title: "Sistema de Gestão Web",
+      description: "Aplicação web para gestão empresarial com painel administrativo, controle de estoque e relatórios detalhados. Interface responsiva e otimizada para diferentes dispositivos.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500",
-      technologies: ["Next.js", "D3.js", "MongoDB", "Chart.js"],
+      technologies: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
       demo: "#",
       code: "#"
     },
     {
-      title: "Mobile Banking App",
-      description: "Aplicativo bancário mobile com autenticação biométrica, transferências e controle financeiro.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500",
-      technologies: ["React Native", "Node.js", "JWT", "SQLite"],
+      title: "Landing Pages Responsivas",
+      description: "Desenvolvimento de landing pages otimizadas para conversão, com design moderno e carregamento rápido. Integração com ferramentas de analytics e formulários.",
+      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500",
+      technologies: ["HTML5", "CSS3", "JavaScript", "jQuery"],
+      demo: "#",
+      code: "#"
+    },
+    {
+      title: "Edição de Vídeos Profissional",
+      description: "Produção de conteúdo audiovisual para redes sociais, incluindo Reels e Shorts. Edição profissional com foco em engajamento e qualidade visual.",
+      image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500",
+      technologies: ["Adobe Premiere", "CapCut", "Motion Graphics"],
       demo: "#",
       code: "#"
     }
@@ -69,17 +69,23 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                   <Button
+                    asChild
                     size="sm"
                     className="bg-neon text-primary-foreground neon-glow"
                   >
-                    {t('projects.viewDemo')}
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      {t('projects.viewDemo')}
+                    </a>
                   </Button>
                   <Button
+                    asChild
                     size="sm"
                     variant="outline"
                     className="border-white text-white hover:bg-white/20"
                   >
-                    {t('projects.viewCode')}
+                    <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
+                      {t('projects.viewCode')}
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -107,18 +113,24 @@ const Projects = () => {
                 
                 <div className="flex gap-3">
                   <Button
+                    asChild
                     size="sm"
                     className="bg-neon text-primary-foreground flex-1 neon-glow"
                   >
-                    {t('projects.viewDemo')}
-                    <ArrowUp className="ml-2 w-4 h-4 rotate-45" />
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      {t('projects.viewDemo')}
+                      <ArrowUp className="ml-2 w-4 h-4 rotate-45" />
+                    </a>
                   </Button>
                   <Button
+                    asChild
                     size="sm"
                     variant="outline"
                     className="border-accent text-accent hover:bg-accent/10"
                   >
-                    {t('projects.viewCode')}
+                    <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
+                      {t('projects.viewCode')}
+                    </a>
                   </Button>
                 </div>
               </div>

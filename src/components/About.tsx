@@ -6,9 +6,9 @@ const About = () => {
   const { t } = useLanguage();
 
   const skills = [
-    { category: "Frontend", technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"] },
-    { category: "Backend", technologies: ["Node.js", "Python", "PostgreSQL", "MongoDB"] },
-    { category: "Tools", technologies: ["Git", "Docker", "AWS", "Figma"] },
+    { category: "Frontend", technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "jQuery", "Bootstrap", "SCSS"] },
+    { category: "Backend", technologies: ["PHP", "MySQL", "APIs REST", "WordPress"] },
+    { category: "Ferramentas", technologies: ["Git", "GitHub", "PhpMyAdmin", "Adobe Premiere", "CapCut", "Photoshop"] },
   ];
 
   return (
@@ -55,7 +55,7 @@ const About = () => {
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                 <Code className="w-6 h-6 text-accent" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Clean Code</h3>
+              <h3 className="font-semibold text-lg mb-2">Código Limpo</h3>
               <p className="text-muted-foreground text-sm">
                 Escrevo código limpo, legível e fácil de manter seguindo as melhores práticas.
               </p>
@@ -65,7 +65,7 @@ const About = () => {
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                 <User className="w-6 h-6 text-accent" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">UX/UI Design</h3>
+              <h3 className="font-semibold text-lg mb-2">UX/UI & Design</h3>
               <p className="text-muted-foreground text-sm">
                 Foco na experiência do usuário criando interfaces intuitivas e atrativas.
               </p>
@@ -75,9 +75,9 @@ const About = () => {
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                 <Briefcase className="w-6 h-6 text-accent" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Soluções Completas</h3>
+              <h3 className="font-semibold text-lg mb-2">Desenvolvimento Full Stack</h3>
               <p className="text-muted-foreground text-sm">
-                Desenvolvimento full stack do conceito à implementação, sempre pensando em escalabilidade.
+                Experiência completa do frontend ao backend, sempre pensando em escalabilidade e performance.
               </p>
             </Card>
           </div>

@@ -7,32 +7,32 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      badge: "AWS",
-      color: "bg-orange-500"
+      title: "Engenharia de Software",
+      issuer: "Descomplica Faculdade Digital",
+      date: "2024-2028",
+      badge: "ES",
+      color: "bg-blue-600"
     },
     {
-      title: "React Developer Certification",
-      issuer: "Meta",
-      date: "2023",
-      badge: "React",
-      color: "bg-blue-500"
-    },
-    {
-      title: "Google Cloud Professional",
-      issuer: "Google Cloud",
-      date: "2022",
-      badge: "GCP",
+      title: "Desenvolvimento Web",
+      issuer: "Autodidata",
+      date: "2020-Atual",
+      badge: "WEB",
       color: "bg-green-500"
     },
     {
-      title: "TypeScript Advanced",
-      issuer: "Microsoft",
-      date: "2022",
-      badge: "TS",
-      color: "bg-blue-600"
+      title: "Inglês Avançado",
+      issuer: "Proficiência Profissional",
+      date: "2023",
+      badge: "EN",
+      color: "bg-purple-500"
+    },
+    {
+      title: "Adobe Premiere",
+      issuer: "Edição Profissional",  
+      date: "2020",
+      badge: "AE",
+      color: "bg-orange-500"
     }
   ];
 

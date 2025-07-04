@@ -8,25 +8,18 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Presente",
-      description: "Lidero o desenvolvimento de aplicações web complexas usando React, Node.js e AWS. Responsável por arquitetura de sistemas e mentoria de desenvolvedores júnior.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+      title: "Desenvolvedor Web",
+      company: "Agência Class",
+      period: "Nov/2022 - Atualmente",
+      description: "Desenvolvimento e manutenção de sistemas web escaláveis utilizando PHP, JavaScript, HTML5, CSS3 e MySQL. Implementação de interfaces responsivas e otimizadas, aprimorando a experiência do usuário. Integração com diversas APIs REST e otimização de queries SQL para melhoria da performance do sistema.",
+      technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "MySQL", "APIs REST"]
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Agency Pro",
-      period: "2020 - 2022",
-      description: "Desenvolvi interfaces modernas e responsivas para clientes de diversos setores. Foco em performance e experiência do usuário.",
-      technologies: ["React", "Vue.js", "SASS", "JavaScript", "Figma"]
-    },
-    {
-      title: "Junior Developer",
-      company: "StartUp Innovation",
-      period: "2019 - 2020",
-      description: "Primeiro trabalho como desenvolvedor, contribuindo para o desenvolvimento de uma plataforma SaaS de gestão empresarial.",
-      technologies: ["JavaScript", "HTML", "CSS", "PHP", "MySQL"]
+      title: "Editor de Vídeo e Desenvolvedor Web Jr.",
+      company: "Freelancer",
+      period: "Jun/2020 - Dez/2021",
+      description: "Edição de vídeos dinâmicos para plataformas de redes sociais, incluindo Reels e Shorts. Criação de sites e landing pages para uma gama diversificada de clientes. Gerenciamento da comunicação remota com clientes e produção de conteúdo audiovisual de alta qualidade.",
+      technologies: ["Adobe Premiere", "CapCut", "HTML", "CSS", "JavaScript", "WordPress"]
     }
   ];
 
