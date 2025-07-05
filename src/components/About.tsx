@@ -1,12 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Code, User, Briefcase } from "lucide-react";
-import { useLanguage } from "@/hooks/useLanguage";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const About = () => {
   const { t } = useLanguage();
 
   const skills = [
-    { category: "Frontend", technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "jQuery", "Bootstrap", "SCSS"] },
+    { category: "Frontend", technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "jQuery", "Bootstrap", "SCSS"] },
     { category: "Backend", technologies: ["PHP", "MySQL", "APIs REST", "WordPress"] },
     { category: "Ferramentas", technologies: ["Git", "GitHub", "PhpMyAdmin", "Adobe Premiere", "CapCut", "Photoshop"] },
   ];

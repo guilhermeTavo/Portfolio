@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 export type Language = 'pt' | 'en' | 'es';
 
@@ -27,7 +27,7 @@ export const translations: Translations = {
     // About
     'about.title': 'Sobre Mim',
     'about.subtitle': 'Desenvolvedor apaixonado por tecnologia',
-    'about.description': 'Com sólida base em desenvolvimento Full Stack, domino tecnologias essenciais como HTML5, CSS3, JavaScript (ES6+), jQuery e PHP, complementadas por expertise em bancos de dados MySQL. Sou movido por desafios e estou em constante aprendizado e evolução. Além da programação, utilizo minhas habilidades em edição profissional de vídeos para redes sociais.',
+    'about.description': 'Com sólida base em desenvolvimento Full Stack, domino tecnologias essenciais como HTML5, CSS3, JavaScript (ES6+), TypeScript, jQuery e PHP, complementadas por expertise em bancos de dados MySQL. Sou movido por desafios e estou em constante aprendizado e evolução. Além da programação, utilizo minhas habilidades em edição profissional de vídeos para redes sociais.',
 
     // Certifications
     'certifications.title': 'Formação',
@@ -66,7 +66,7 @@ export const translations: Translations = {
     // About
     'about.title': 'About Me',
     'about.subtitle': 'Developer passionate about technology',
-    'about.description': 'With a solid foundation in Full Stack development, I master essential technologies like HTML5, CSS3, JavaScript (ES6+), jQuery and PHP, complemented by expertise in MySQL databases. I am driven by challenges and constantly learning and evolving. In addition to programming, I use my professional video editing skills for social media.',
+    'about.description': 'With a solid foundation in Full Stack development, I master essential technologies like HTML5, CSS3, JavaScript (ES6+), TypeScript, jQuery and PHP, complemented by expertise in MySQL databases. I am driven by challenges and constantly learning and evolving. In addition to programming, I use my professional video editing skills for social media.',
 
     // Certifications
     'certifications.title': 'Education',
@@ -105,7 +105,7 @@ export const translations: Translations = {
     // About
     'about.title': 'Sobre Mí',
     'about.subtitle': 'Desarrollador apasionado por la tecnología',
-    'about.description': 'Con una sólida base en desarrollo Full Stack, domino tecnologías esenciales como HTML5, CSS3, JavaScript (ES6+), jQuery y PHP, complementadas por experiencia en bases de datos MySQL. Me impulsan los desafíos y estoy en constante aprendizaje y evolución. Además de la programación, utilizo mis habilidades en edición profesional de videos para redes sociales.',
+    'about.description': 'Con una sólida base en desarrollo Full Stack, domino tecnologías esenciales como HTML5, CSS3, JavaScript (ES6+), TypeScript, jQuery y PHP, complementadas por experiencia en bases de datos MySQL. Me impulsan los desafíos y estoy en constante aprendizaje y evolución. Además de la programación, utilizo mis habilidades en edición profesional de videos para redes sociales.',
 
     // Certifications
     'certifications.title': 'Formación',
@@ -128,7 +128,23 @@ export const translations: Translations = {
   }
 };
 
+interface LanguageContextType {
+  language: Language;
+  setLanguage: (language: Language) => void;
+  t: (key: string) => string;
+}
+
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+
 export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+};
+
+export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>(() => {
     if (typeof window === 'undefined') return 'pt';
     const saved = localStorage.getItem('portfolio-language');
@@ -138,8 +154,6 @@ export const useLanguage = () => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('portfolio-language', language);
-      // Force re-render of components by triggering a page refresh
-      window.dispatchEvent(new Event('languageChanged'));
     }
   }, [language]);
 
@@ -147,5 +161,9 @@ export const useLanguage = () => {
     return translations[language]?.[key] || key;
   };
 
-  return { language, setLanguage, t };
+  return (
+    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+      {children}
+    </LanguageContext.Provider>
+  );
 };
