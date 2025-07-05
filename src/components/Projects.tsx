@@ -11,7 +11,7 @@ const Projects = () => {
     {
       title: "Floreslândia E-commerce",
       description: "E-commerce completo de floricultura desenvolvido do zero, desde o design até o backend. Site com milhares de acessos mensais e alta conversão em vendas. Implementação de SEO técnico, integração com WhatsApp e sistema de pedidos otimizado.",
-      image: "/assets/hero-bg-D5MXa6Yb.jpg&quo",
+      image: "/assets/Captura%20de%20tela%202025-07-05%20173512.png",
       technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "MySQL", "SEO"],
       demo: "https://www.floreslandia.com/",
       code: "#"
