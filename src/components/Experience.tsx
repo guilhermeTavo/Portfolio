@@ -15,11 +15,11 @@ const Experience = () => {
       technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "MySQL", "APIs REST"]
     },
     {
-      title: "Editor de Vídeo e Desenvolvedor Web Jr.",
+      title: "Editor de Vídeo",
       company: "Freelancer",
-      period: "Jun/2020 - Dez/2021",
-      description: "Edição de vídeos dinâmicos para plataformas de redes sociais, incluindo Reels e Shorts. Criação de sites e landing pages para uma gama diversificada de clientes. Gerenciamento da comunicação remota com clientes e produção de conteúdo audiovisual de alta qualidade.",
-      technologies: ["Adobe Premiere", "CapCut", "HTML", "CSS", "JavaScript", "WordPress"]
+      period: "Jun/2020 - Ago/2022",
+      description: "Edição de vídeos dinâmicos para plataformas de redes sociais, incluindo Reels e Shorts. Gerenciamento da comunicação remota com clientes e produção de conteúdo audiovisual de alta qualidade.",
+      technologies: ["Adobe Premiere", "CapCut", "Photoshop", "After Effects"]
     }
   ];
 
