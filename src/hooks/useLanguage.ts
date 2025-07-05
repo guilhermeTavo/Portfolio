@@ -130,16 +130,21 @@ export const translations: Translations = {
 
 export const useLanguage = () => {
   const [language, setLanguage] = useState<Language>(() => {
+    if (typeof window === 'undefined') return 'pt';
     const saved = localStorage.getItem('portfolio-language');
     return (saved as Language) || 'pt';
   });
 
   useEffect(() => {
-    localStorage.setItem('portfolio-language', language);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('portfolio-language', language);
+      // Force re-render of components by triggering a page refresh
+      window.dispatchEvent(new Event('languageChanged'));
+    }
   }, [language]);
 
   const t = (key: string): string => {
-    return translations[language][key] || key;
+    return translations[language]?.[key] || key;
   };
 
   return { language, setLanguage, t };
