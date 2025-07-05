@@ -23,13 +23,13 @@ const Footer = () => {
           
           <div className="flex justify-center gap-6 mb-8">
             <a
-              href="mailto:joao.silva@email.com"
+              href="mailto:guids.tavares@gmail.com"
               className="text-primary-foreground/80 hover:text-accent-glow transition-colors"
             >
               Email
             </a>
             <a
-              href="https://linkedin.com/in/joao-silva-dev"
+              href="https://www.linkedin.com/in/guilherme-tavares-398563240/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-accent-glow transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/joao-silva-dev"
+              href="https://github.com/guilhermeTavo"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-accent-glow transition-colors"
@@ -48,7 +48,7 @@ const Footer = () => {
           
           <div className="border-t border-primary-foreground/20 pt-6">
             <p className="text-sm text-primary-foreground/60">
-              © 2024 João Silva. Desenvolvido com ❤️ usando React & Tailwind CSS
+              © 2025 Guilherme Tavares
             </p>
           </div>
         </div>
