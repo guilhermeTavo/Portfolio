@@ -51,36 +51,30 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-slide-up">
-            <Card className="p-6 hover-lift border-0 card-glass">
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                <Code className="w-6 h-6 text-accent" />
-              </div>
-              <h3 className="font-semibold text-lg mb-2">Código Limpo</h3>
-              <p className="text-muted-foreground text-sm">
-                Escrevo código limpo, legível e fácil de manter seguindo as melhores práticas.
-              </p>
-            </Card>
+      <Card className="p-6 hover-lift border-0 card-glass">
+        <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+          <Code className="w-6 h-6 text-accent" />
+        </div>
+        <h3 className="font-semibold text-lg mb-2">{t('features.1.title')}</h3>
+        <p className="text-muted-foreground text-sm">{t('features.1.description')}</p>
+      </Card>
 
-            <Card className="p-6 hover-lift border-0 card-glass">
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                <User className="w-6 h-6 text-accent" />
-              </div>
-              <h3 className="font-semibold text-lg mb-2">UX/UI & Design</h3>
-              <p className="text-muted-foreground text-sm">
-                Foco na experiência do usuário criando interfaces intuitivas e atrativas.
-              </p>
-            </Card>
+      <Card className="p-6 hover-lift border-0 card-glass">
+        <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+          <User className="w-6 h-6 text-accent" />
+        </div>
+        <h3 className="font-semibold text-lg mb-2">{t('features.2.title')}</h3>
+        <p className="text-muted-foreground text-sm">{t('features.2.description')}</p>
+      </Card>
 
-            <Card className="p-6 hover-lift border-0 card-glass md:col-span-2">
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                <Briefcase className="w-6 h-6 text-accent" />
-              </div>
-              <h3 className="font-semibold text-lg mb-2">Desenvolvimento Full Stack</h3>
-              <p className="text-muted-foreground text-sm">
-                Experiência completa do frontend ao backend, sempre pensando em escalabilidade e performance.
-              </p>
-            </Card>
-          </div>
+      <Card className="p-6 hover-lift border-0 card-glass md:col-span-2">
+        <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+          <Briefcase className="w-6 h-6 text-accent" />
+        </div>
+        <h3 className="font-semibold text-lg mb-2">{t('features.3.title')}</h3>
+        <p className="text-muted-foreground text-sm">{t('features.3.description')}</p>
+      </Card>
+    </div>
         </div>
       </div>
     </section>
