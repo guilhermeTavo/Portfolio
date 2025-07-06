@@ -5,11 +5,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 const About = () => {
   const { t } = useLanguage();
 
-  const skills = [
-    { category: "Frontend", technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "jQuery", "Bootstrap", "SCSS"] },
-    { category: "Backend", technologies: ["PHP", "MySQL", "APIs REST", "WordPress"] },
-    { category: "Ferramentas", technologies: ["Git", "GitHub", "PhpMyAdmin", "Adobe Premiere", "CapCut", "Photoshop"] },
-  ];
+ const skills = [
+  { category: "skills.frontend", technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "jQuery", "Bootstrap", "SCSS"] },
+  { category: "skills.backend", technologies: ["PHP", "MySQL", "APIs REST", "WordPress"] },
+  { category: "skills.tools", technologies: ["Git", "GitHub", "PhpMyAdmin", "Adobe Premiere", "CapCut", "Photoshop"] },
+];
+
 
   return (
     <section id="about" className="section-padding bg-background">
