@@ -81,6 +81,11 @@ export const translations: Translations = {
 
 'features.3.title': 'Desenvolvimento Full Stack',
 'features.3.description': 'Experiência completa do frontend ao backend, sempre pensando em escalabilidade e performance.',
+    
+    'skills.frontend': 'Frontend',
+'skills.backend': 'Backend',
+'skills.tools': 'Ferramentas',
+
 
     
   },
@@ -157,6 +162,10 @@ export const translations: Translations = {
 'features.3.title': 'Full Stack Development',
 'features.3.description': 'End-to-end experience from frontend to backend, always with scalability and performance in mind.',
 
+    'skills.frontend': 'Frontend',
+'skills.backend': 'Backend',
+'skills.tools': 'Tools',
+
 
   },
   es: {
@@ -232,6 +241,11 @@ export const translations: Translations = {
 
 'features.3.title': 'Desarrollo Full Stack',
 'features.3.description': 'Experiencia completa de frontend a backend, siempre pensando en escalabilidad y rendimiento.',
+
+    'skills.frontend': 'Frontend',
+'skills.backend': 'Backend',
+'skills.tools': 'Herramientas',
+
 
   }
 };
