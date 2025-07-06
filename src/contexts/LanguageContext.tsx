@@ -71,6 +71,17 @@ export const translations: Translations = {
 'experience.2.company': 'Freelancer',
 'experience.2.period': 'Jun/2020 - Ago/2022',
 'experience.2.description': 'Edição de vídeos dinâmicos para plataformas de redes sociais, incluindo Reels e Shorts. Gerenciamento da comunicação remota com clientes e produção de conteúdo audiovisual de alta qualidade.',
+
+  //skills
+  'features.1.title': 'Código Limpo',
+'features.1.description': 'Escrevo código limpo, legível e fácil de manter seguindo as melhores práticas.',
+
+'features.2.title': 'UX/UI & Design',
+'features.2.description': 'Foco na experiência do usuário criando interfaces intuitivas e atrativas.',
+
+'features.3.title': 'Desenvolvimento Full Stack',
+'features.3.description': 'Experiência completa do frontend ao backend, sempre pensando em escalabilidade e performance.',
+
     
   },
   en: {
@@ -135,6 +146,16 @@ export const translations: Translations = {
 'experience.2.company': 'Freelancer',
 'experience.2.period': 'Jun/2020 - Aug/2022',
 'experience.2.description': 'Editing dynamic videos for social media platforms, including Reels and Shorts. Managed remote communication with clients and delivered high-quality audiovisual content.',
+
+    //Skills
+    'features.1.title': 'Clean Code',
+'features.1.description': 'I write clean, readable, and maintainable code following best practices.',
+
+'features.2.title': 'UX/UI & Design',
+'features.2.description': 'Focused on user experience by creating intuitive and attractive interfaces.',
+
+'features.3.title': 'Full Stack Development',
+'features.3.description': 'End-to-end experience from frontend to backend, always with scalability and performance in mind.',
 
 
   },
@@ -202,8 +223,16 @@ export const translations: Translations = {
 'experience.2.period': 'Jun/2020 - Ago/2022',
 'experience.2.description': 'Edición de videos dinámicos para plataformas de redes sociales, incluyendo Reels y Shorts. Gestión de la comunicación remota con clientes y producción de contenido audiovisual de alta calidad.',
 
+//skills
+    'features.1.title': 'Código Limpio',
+'features.1.description': 'Escribo código limpio, legible y fácil de mantener siguiendo las mejores prácticas.',
 
-    
+'features.2.title': 'UX/UI & Diseño',
+'features.2.description': 'Enfocado en la experiencia del usuario creando interfaces intuitivas y atractivas.',
+
+'features.3.title': 'Desarrollo Full Stack',
+'features.3.description': 'Experiencia completa de frontend a backend, siempre pensando en escalabilidad y rendimiento.',
+
   }
 };
 
