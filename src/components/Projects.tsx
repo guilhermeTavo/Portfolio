@@ -17,11 +17,11 @@ const Projects = () => {
       code: "#"
     },
     {
-      title: "Sistema de Gestão Web",
-      description: "Aplicação web para gestão empresarial com painel administrativo, controle de estoque e relatórios detalhados. Interface responsiva e otimizada para diferentes dispositivos.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500",
-      technologies: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
-      demo: "#",
+      title: "Gerador de Currículos",
+      description: "Gerador de Currículos Online desenvolvido 100% em frontend, com foco em performance e usabilidade. Permite criar currículos personalizados em PDF de forma rápida e intuitiva. Construído com TypeScript, PHP e tecnologias modernas da web.",
+      image: "https://raw.githubusercontent.com/guilhermeTavo/Portfolio/main/src/assets/cv-generator.jpg",
+      technologies: ["TypeScript", "CSS", "JavaScript", "PHP", "HTML"],
+      demo: "https://curriculum-generator-tau.vercel.app/",
       code: "#"
     },
     {
