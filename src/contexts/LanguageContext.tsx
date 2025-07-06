@@ -61,6 +61,16 @@ export const translations: Translations = {
 'projects.4.title': 'Edição de Vídeos Profissional',
 'projects.4.description': 'Produção de conteúdo audiovisual para redes sociais, incluindo Reels e Shorts. Edição profissional com foco em engajamento e qualidade visual.',
 
+    //Experiencias
+    'experience.1.title': 'Desenvolvedor Web',
+'experience.1.company': 'Agência Class',
+'experience.1.period': 'Nov/2022 - Atualmente',
+'experience.1.description': 'Desenvolvimento e manutenção de sistemas web escaláveis utilizando PHP, JavaScript, HTML5, CSS3 e MySQL. Implementação de interfaces responsivas e otimizadas, aprimorando a experiência do usuário. Integração com diversas APIs REST e otimização de queries SQL para melhoria da performance do sistema.',
+
+'experience.2.title': 'Editor de Vídeo',
+'experience.2.company': 'Freelancer',
+'experience.2.period': 'Jun/2020 - Ago/2022',
+'experience.2.description': 'Edição de vídeos dinâmicos para plataformas de redes sociais, incluindo Reels e Shorts. Gerenciamento da comunicação remota com clientes e produção de conteúdo audiovisual de alta qualidade.',
     
   },
   en: {
@@ -115,6 +125,18 @@ export const translations: Translations = {
 'projects.4.title': 'Professional Video Editing',
 'projects.4.description': 'Audiovisual content production for social media, including Reels and Shorts. Professional editing focused on engagement and visual quality.',
 
+      //XP
+      'experience.1.title': 'Web Developer',
+'experience.1.company': 'Agência Class',
+'experience.1.period': 'Nov/2022 - Present',
+'experience.1.description': 'Development and maintenance of scalable web systems using PHP, JavaScript, HTML5, CSS3, and MySQL. Implementation of responsive and optimized interfaces to enhance user experience. Integration with various REST APIs and optimization of SQL queries to improve system performance.',
+
+'experience.2.title': 'Video Editor',
+'experience.2.company': 'Freelancer',
+'experience.2.period': 'Jun/2020 - Aug/2022',
+'experience.2.description': 'Editing dynamic videos for social media platforms, including Reels and Shorts. Managed remote communication with clients and delivered high-quality audiovisual content.',
+
+
   },
   es: {
     // Navigation
@@ -168,6 +190,18 @@ export const translations: Translations = {
 
 'projects.4.title': 'Edición de Videos Profesional',
 'projects.4.description': 'Producción de contenido audiovisual para redes sociales, incluidos Reels y Shorts. Edición profesional enfocada en el compromiso y la calidad visual.',
+
+      //Xp
+      'experience.1.title': 'Desarrollador Web',
+'experience.1.company': 'Agência Class',
+'experience.1.period': 'Nov/2022 - Actualidad',
+'experience.1.description': 'Desarrollo y mantenimiento de sistemas web escalables utilizando PHP, JavaScript, HTML5, CSS3 y MySQL. Implementación de interfaces responsivas y optimizadas para mejorar la experiencia del usuario. Integración con varias APIs REST y optimización de consultas SQL para mejorar el rendimiento del sistema.',
+
+'experience.2.title': 'Editor de Video',
+'experience.2.company': 'Freelancer',
+'experience.2.period': 'Jun/2020 - Ago/2022',
+'experience.2.description': 'Edición de videos dinámicos para plataformas de redes sociales, incluyendo Reels y Shorts. Gestión de la comunicación remota con clientes y producción de contenido audiovisual de alta calidad.',
+
 
     
   }
