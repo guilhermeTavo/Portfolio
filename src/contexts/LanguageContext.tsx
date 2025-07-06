@@ -47,6 +47,21 @@ export const translations: Translations = {
     'contact.title': 'Vamos Conversar',
     'contact.subtitle': 'Entre em contato',
     'contact.description': 'Estou sempre aberto a discutir novos projetos, oportunidades ou apenas bater um papo sobre tecnologia. Vamos trabalhar juntos!',
+  
+  //Projetos  
+  'projects.1.title': 'Floreslândia E-commerce',
+'projects.1.description': 'E-commerce completo de floricultura desenvolvido do zero, desde o design até o backend. Site com milhares de acessos mensais e alta conversão em vendas. Implementação de SEO técnico, integração com WhatsApp e sistema de pedidos otimizado.',
+
+'projects.2.title': 'Gerador de Currículos',
+'projects.2.description': 'Gerador de Currículos Online desenvolvido 100% em frontend, com foco em performance e usabilidade. Permite criar currículos personalizados em PDF de forma rápida e intuitiva. Construído com TypeScript, PHP e tecnologias modernas da web.',
+
+'projects.3.title': 'Landing Pages Responsivas',
+'projects.3.description': 'Desenvolvimento de landing pages otimizadas para conversão, com design moderno e carregamento rápido. Integração com ferramentas de analytics e formulários.',
+
+'projects.4.title': 'Edição de Vídeos Profissional',
+'projects.4.description': 'Produção de conteúdo audiovisual para redes sociais, incluindo Reels e Shorts. Edição profissional com foco em engajamento e qualidade visual.',
+
+    
   },
   en: {
     // Navigation
@@ -86,6 +101,20 @@ export const translations: Translations = {
     'contact.title': 'Let\'s Talk',
     'contact.subtitle': 'Get in touch',
     'contact.description': 'I\'m always open to discussing new projects, opportunities or just chatting about technology. Let\'s work together!',
+
+    //Projetos
+    'projects.1.title': 'Floreslândia E-commerce',
+'projects.1.description': 'Complete flower shop e-commerce developed from scratch, including design and backend. Thousands of monthly visits and high sales conversion. Includes technical SEO, WhatsApp integration, and optimized order system.',
+
+'projects.2.title': 'Resume Generator',
+'projects.2.description': 'Online Resume Generator fully built on the frontend, focused on performance and usability. Easily create customized PDF resumes quickly and intuitively. Built with TypeScript, PHP, and modern web technologies.',
+
+'projects.3.title': 'Responsive Landing Pages',
+'projects.3.description': 'Development of conversion-optimized landing pages with modern design and fast load speed. Integrated with analytics tools and contact forms.',
+
+'projects.4.title': 'Professional Video Editing',
+'projects.4.description': 'Audiovisual content production for social media, including Reels and Shorts. Professional editing focused on engagement and visual quality.',
+
   },
   es: {
     // Navigation
@@ -125,6 +154,22 @@ export const translations: Translations = {
     'contact.title': 'Hablemos',
     'contact.subtitle': 'Ponte en contacto',
     'contact.description': '¡Siempre estoy abierto a discutir nuevos proyectos, oportunidades o simplemente charlar sobre tecnología. Trabajemos juntos!',
+
+    //Projetos
+
+    'projects.1.title': 'Floreslândia E-commerce',
+'projects.1.description': 'E-commerce completo para floristería desarrollado desde cero, incluyendo diseño y backend. Miles de visitas mensuales y alta conversión en ventas. Incluye SEO técnico, integración con WhatsApp y sistema de pedidos optimizado.',
+
+'projects.2.title': 'Generador de Currículums',
+'projects.2.description': 'Generador de currículums en línea desarrollado completamente en frontend, enfocado en rendimiento y usabilidad. Permite crear currículums PDF personalizados de forma rápida e intuitiva. Construido con TypeScript, PHP y tecnologías web modernas.',
+
+'projects.3.title': 'Landing Pages Responsivas',
+'projects.3.description': 'Desarrollo de landing pages optimizadas para la conversión, con diseño moderno y carga rápida. Integración con herramientas de análisis y formularios.',
+
+'projects.4.title': 'Edición de Videos Profesional',
+'projects.4.description': 'Producción de contenido audiovisual para redes sociales, incluidos Reels y Shorts. Edición profesional enfocada en el compromiso y la calidad visual.',
+
+    
   }
 };
 
