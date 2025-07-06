@@ -9,32 +9,24 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Floreslândia E-commerce",
-      description: "E-commerce completo de floricultura desenvolvido do zero, desde o design até o backend. Site com milhares de acessos mensais e alta conversão em vendas. Implementação de SEO técnico, integração com WhatsApp e sistema de pedidos otimizado.",
       image: "https://raw.githubusercontent.com/guilhermeTavo/Portfolio/main/src/assets/floreslandia.jpg",
       technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "MySQL", "SEO"],
       demo: "https://www.floreslandia.com/",
       code: "#"
     },
     {
-      title: "Gerador de Currículos",
-      description: "Gerador de Currículos Online desenvolvido 100% em frontend, com foco em performance e usabilidade. Permite criar currículos personalizados em PDF de forma rápida e intuitiva. Construído com TypeScript, PHP e tecnologias modernas da web.",
       image: "https://raw.githubusercontent.com/guilhermeTavo/Portfolio/main/src/assets/cv-generator.jpg",
       technologies: ["TypeScript", "CSS", "JavaScript", "PHP", "HTML"],
       demo: "https://curriculum-generator-tau.vercel.app/",
       code: "#"
     },
     {
-      title: "Landing Pages Responsivas",
-      description: "Desenvolvimento de landing pages otimizadas para conversão, com design moderno e carregamento rápido. Integração com ferramentas de analytics e formulários.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500",
       technologies: ["HTML5", "CSS3", "JavaScript", "jQuery"],
       demo: "#",
       code: "#"
     },
     {
-      title: "Edição de Vídeos Profissional",
-      description: "Produção de conteúdo audiovisual para redes sociais, incluindo Reels e Shorts. Edição profissional com foco em engajamento e qualidade visual.",
       image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500",
       technologies: ["Adobe Premiere", "CapCut", "Motion Graphics"],
       demo: "#",
@@ -57,14 +49,14 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card
-              key={project.title}
+              key={index}
               className="overflow-hidden border-0 card-glass hover-lift group animate-slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={t(`projects.${index + 1}.title`)}
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
@@ -89,28 +81,28 @@ const Projects = () => {
                   </Button>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-primary">
-                  {project.title}
+                  {t(`projects.${index + 1}.title`)}
                 </h3>
-                
+
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  {project.description}
+                  {t(`projects.${index + 1}.description`)}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
-                  <Badge
-                    key={tech}
-                    variant="secondary"
-                    className="bg-accent-soft text-accent text-xs hover:bg-accent hover:text-accent-foreground transition-colors"
-                  >
-                    {tech}
-                  </Badge>
+                    <Badge
+                      key={tech}
+                      variant="secondary"
+                      className="bg-accent-soft text-accent text-xs hover:bg-accent hover:text-accent-foreground transition-colors"
+                    >
+                      {tech}
+                    </Badge>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-3">
                   <Button
                     asChild
