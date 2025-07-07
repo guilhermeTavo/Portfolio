@@ -59,27 +59,29 @@ const Projects = () => {
                   alt={t(`projects.${index + 1}.title`)}
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                  <Button
-                    asChild
-                    size="sm"
-                    className="bg-neon text-primary-foreground neon-glow"
-                  >
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      {t('projects.viewDemo')}
-                    </a>
-                  </Button>
-                  <Button
-                    asChild
-                    size="sm"
-                    variant="outline"
-                    className="border-white text-white hover:bg-white/20"
-                  >
-                    <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
-                      {t('projects.viewCode')}
-                    </a>
-                  </Button>
-                </div>
+                {index < 2 && (
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+                    <Button
+                      asChild
+                      size="sm"
+                      className="bg-neon text-primary-foreground neon-glow"
+                    >
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                        {t('projects.viewDemo')}
+                      </a>
+                    </Button>
+                    <Button
+                      asChild
+                      size="sm"
+                      variant="outline"
+                      className="border-white text-white hover:bg-white/20"
+                    >
+                      <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
+                        {t('projects.viewCode')}
+                      </a>
+                    </Button>
+                  </div>
+                )}
               </div>
 
               <div className="p-6">
@@ -104,26 +106,41 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-3">
-                  <Button
-                    asChild
-                    size="sm"
-                    className="bg-neon text-primary-foreground flex-1 neon-glow"
-                  >
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      {t('projects.viewDemo')}
-                      <ArrowUp className="ml-2 w-4 h-4 rotate-45" />
-                    </a>
-                  </Button>
-                  <Button
-                    asChild
-                    size="sm"
-                    variant="outline"
-                    className="border-accent text-accent hover:bg-accent/10"
-                  >
-                    <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
-                      {t('projects.viewCode')}
-                    </a>
-                  </Button>
+                  {index < 2 ? (
+                    <>
+                      <Button
+                        asChild
+                        size="sm"
+                        className="bg-neon text-primary-foreground flex-1 neon-glow"
+                      >
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                          {t('projects.viewDemo')}
+                          <ArrowUp className="ml-2 w-4 h-4 rotate-45" />
+                        </a>
+                      </Button>
+                      <Button
+                        asChild
+                        size="sm"
+                        variant="outline"
+                        className="border-accent text-accent hover:bg-accent/10"
+                      >
+                        <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
+                          {t('projects.viewCode')}
+                        </a>
+                      </Button>
+                    </>
+                  ) : (
+                    <Button
+                      asChild
+                      size="sm"
+                      variant="outline"
+                      className="w-full border-accent text-accent hover:bg-accent/10"
+                    >
+                      <a href="https://wa.me/5511952825374" target="_blank" rel="noopener noreferrer">
+                        {t('projects.viewCode')}
+                      </a>
+                    </Button>
+                  )}
                 </div>
               </div>
             </Card>
